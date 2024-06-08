@@ -1,0 +1,28 @@
+{
+	"name": "react-from-scratch",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint --ext .ts,.jsx,.tsx --fix --quiet ./packages",
+		"prepare": "husky"
+	},
+	"keywords": [],
+	"author": "thanhlam",
+	"license": "ISC",
+	"devDependencies": {
+		"@commitlint/cli": "^19.3.0",
+		"@commitlint/config-conventional": "^19.2.2",
+		"@typescript-eslint/eslint-plugin": "^7.12.0",
+		"@typescript-eslint/parser": "^7.12.0",
+		"commitlint": "^19.3.0",
+		"eslint": "8.52.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"husky": "^9.0.11",
+		"prettier": "^3.3.1",
+		"rollup": "^4.18.0",
+		"typescript": "^5.4.5"
+	}
+}
